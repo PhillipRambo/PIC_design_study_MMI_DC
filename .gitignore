@@ -1,0 +1,28 @@
+# --- Python cache ---
+__pycache__/
+*.pyc
+
+# --- Jupyter notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- Backup data ---
+Backup_data/
+
+# --- Simulation data (full data folders) ---
+simulation_data/
+**/simulation_data/
+
+# --- Large raw data files ---
+*.npz
+*.hdf5
+*.csv
+
+# --- Windows path artifacts accidentally included ---
+C:\*/
+
+# --- Ignore hidden temporary system files ---
+.DS_Store
+Thumbs.db
+
+# --- Exclude any nested MMI_COUPLER_data directories ---
+**/MMI_COUPLER_data/
